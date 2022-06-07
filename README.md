@@ -26,17 +26,27 @@ DATA: Sales data from multiple different stores of different sizes; included dat
 
 
 
-**Distribution of Sales based on item visibility in stores**
+**Outlet Sizes per Outlet Type**
 
-![download2](https://user-images.githubusercontent.com/97268064/171047926-ea141bc9-ed80-454d-8570-e6a3cc22810d.png)
+![download](https://user-images.githubusercontent.com/97268064/172299511-d7a9c00f-6236-4a84-a6b0-c365bf1ba676.png)
 
-> I dont see a direct correlation between how visible an item and how much that item sells however, the important takeaway here is there does not seem to be a strong correlation with the size of the outlet either.
-The majority of the higher selling items are coming from Medium size outlets, not what I would have expected.
+
+> Supermarket Type 1 seems to have the most stores overall and contains both Medium(actually the only outlet type that contains medium sized stores) as well as Small outlets; Medium outlets account for the majority of Sales so Supermarket Type 1, in turn, brings in the most revenue.
 
 
 ## Model
 
-My model contains an Imputer for missing values that were leftover in some of the numberical columns as well as a OneHotEncoder for my categorical columns
+Linear Regression model with a low MSE, MAE and RMSE.
+
+I think with such limited avg. error, this model is dependable when predicting sales volume for the future.
+
+## For Further information
+
+Please feel free to reach out to me:
+
+kabaalpha@yahoo.com
+
+
 
 
 
